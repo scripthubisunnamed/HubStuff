@@ -1,1 +1,9 @@
---INVALID RN
+local Games = {
+    8807832754,
+}
+
+if table.find(Games, game.PlaceId) then
+    print "Yes"
+else
+    print("no")
+end
